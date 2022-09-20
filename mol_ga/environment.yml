@@ -1,0 +1,17 @@
+name: molgeneration
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - numpy-base=1.20.1
+  - pandas=1.2.4
+  - pytorch
+  - rdkit=2022.03.2
+  - scikit-learn=0.24.1
+  - scipy=1.6.2
+  - sklearn-pandas=2.2.0
+  - deap
+  - pip
+  - pip:
+    - numpy==1.19.5
